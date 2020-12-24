@@ -1,0 +1,10 @@
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal Randomness.csprojAssemblyReference.cache
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal_Randomness.Form1.resources
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal_Randomness.Properties.Resources.resources
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal Randomness.csproj.GenerateResource.cache
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal Randomness.csproj.CoreCompileInputs.cache
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\bin\Debug\Eternal Randomiser.exe.config
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\bin\Debug\Eternal Randomiser.exe
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\bin\Debug\Eternal Randomiser.pdb
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal Randomiser.exe
+C:\Users\Eivind Limstrand\source\repos\Eternal Randomness\Eternal Randomness\obj\Debug\Eternal Randomiser.pdb

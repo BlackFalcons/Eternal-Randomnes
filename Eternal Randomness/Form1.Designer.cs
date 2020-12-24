@@ -37,9 +37,9 @@ namespace Eternal_Randomness
             this.button1 = new System.Windows.Forms.Button();
             this.RandomNumberText = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.RevealerBox = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.RevealerCheckbox = new System.Windows.Forms.CheckBox();
-            this.RevealerBox = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -112,6 +112,20 @@ namespace Eternal_Randomness
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
+            // RevealerBox
+            // 
+            this.RevealerBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RevealerBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RevealerBox.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.RevealerBox.Location = new System.Drawing.Point(6, 16);
+            this.RevealerBox.Name = "RevealerBox";
+            this.RevealerBox.Size = new System.Drawing.Size(217, 40);
+            this.RevealerBox.TabIndex = 6;
+            this.RevealerBox.Text = "Click to reveal!";
+            this.RevealerBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RevealerBox.Visible = false;
+            this.RevealerBox.Click += new System.EventHandler(this.RevealerCheckboxHide);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.RevealerCheckbox);
@@ -132,20 +146,6 @@ namespace Eternal_Randomness
             this.RevealerCheckbox.Text = "Click to reveal";
             this.RevealerCheckbox.UseVisualStyleBackColor = true;
             this.RevealerCheckbox.CheckedChanged += new System.EventHandler(this.RevealerCheckbox_CheckedChanged);
-            // 
-            // RevealerBox
-            // 
-            this.RevealerBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RevealerBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RevealerBox.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.RevealerBox.Location = new System.Drawing.Point(6, 16);
-            this.RevealerBox.Name = "RevealerBox";
-            this.RevealerBox.Size = new System.Drawing.Size(217, 40);
-            this.RevealerBox.TabIndex = 6;
-            this.RevealerBox.Text = "Click to reveal!";
-            this.RevealerBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.RevealerBox.Visible = false;
-            this.RevealerBox.Click += new System.EventHandler(this.RevealerCheckboxHide);
             // 
             // label3
             // 

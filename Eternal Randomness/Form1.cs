@@ -60,7 +60,6 @@ namespace Eternal_Randomness
 
                     if (fnum < tnum)
                     {
-                        // Add checkbox to hide value and show value on click.
                         RandomNumberText.Text = GenerateRandomNumberInRange(fnum, tnum + 1);
                     }
                     else

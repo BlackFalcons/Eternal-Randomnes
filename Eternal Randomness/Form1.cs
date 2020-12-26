@@ -20,8 +20,14 @@ namespace Eternal_Randomness
 
         private string GenerateRandomNumberInRange(int minValue, int maxValue)
         {
-            Random r = new Random();
-            return r.Next(minValue, maxValue).ToString();
+            try
+            {
+                Random r = new Random();
+                return r.Next(minValue, maxValue).ToString();
+            } catch (OverflowException)
+            {
+                return "1";
+            }
         }
 
         private static string GetNumbers(string input)
@@ -67,10 +73,12 @@ namespace Eternal_Randomness
                         ToNumber.Text = (fnum + 1).ToString();
                         RandomNumberText.Text = GenerateRandomNumberInRange(fnum, tnum + 2);
                     }
-                } catch (OverflowException)
+                }
+                catch (OverflowException)
                 {
                     RandomNumberText.Text = "Too high!";
-                } catch (FormatException)
+                }
+                catch (FormatException)
                 {
                     RandomNumberText.Text = "Non Int!";
                 }
